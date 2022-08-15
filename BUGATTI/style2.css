@@ -1,0 +1,50 @@
+ul {
+    text-align: center;
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 900;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+ul li a:hover {
+    color: blue;
+    border: 5px groove red;
+    background: yellow;
+    border-radius: 15px;
+    transition: 300ms;
+    cursor: cell
+}
+
+ul li a:active {
+    color: red;
+    background: skyblue;
+    transition: 1ms;
+}
+
+b h2 {
+    text-align: center;
+    background: skyblue;
+    color: blue;
+    font-family: 'Courier New', Courier, monospace
+}
+
+img {
+    border: 10px outset skyblue;
+    border-radius: 30px;
+    filter: 100%;
+}
+
+img:hover {
+    transition: 900ms;
+    width: 1200px;
+    height: 600px;
+
+}
+
+
+
